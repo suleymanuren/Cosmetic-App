@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kozmetik/DetailPage.dart';
 import 'package:kozmetik/LoginPage.dart';
-import 'package:kozmetik/splash.dart';
-import 'package:kozmetik/widgetlar.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       //home: GirisSayfasi(),
-      home: SplashScreen(),
+      home: GirisSayfasi(),
     );
   }
 }
